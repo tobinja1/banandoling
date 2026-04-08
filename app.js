@@ -42,7 +42,7 @@ function randomizeLetterWeights() {
         
         // Apply the weight
         letterSpans[index].style.fontWeight = weight;
-      }, index * 100); // 100ms delay between each letter
+      }, index * 75); // 75ms delay between each letter
     });
   });
 }

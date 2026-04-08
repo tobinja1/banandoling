@@ -18,3 +18,17 @@ h1 {
     margin-left: -2.25vw;
     margin-top: -7vh;
 }
+
+@media (max-width: 992px) {
+  h1 {
+    color: #FFFB21;
+    font-size: 35vw;
+    line-height: 27vh;
+    margin-block-start: 0px;
+    margin-block-end: 0px
+    }
+    .title {
+    margin-left: -3vw;
+    margin-top: -7vh;
+    }
+}
