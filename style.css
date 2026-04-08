@@ -1,0 +1,20 @@
+html {
+    background-color: #86009B;
+    font-family: "Stack Sans Notch", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    color: #FFFB21;
+    font-size: 38vh;
+    line-height: 40vh;
+    margin-block-start: 0px;
+    margin-block-end: 0px
+}
+
+.title {
+    margin-left: -2.25vw;
+    margin-top: -7vh;
+}
