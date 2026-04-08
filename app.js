@@ -47,8 +47,11 @@ function randomizeLetterWeights() {
   });
 }
 
-// Run immediately with sweep effect
-randomizeLetterWeights();
-
-// Update every 5 seconds with sweep effect
-setInterval(randomizeLetterWeights, 5000);
+// Wait 5 seconds before first execution
+setTimeout(() => {
+  // Run immediately with sweep effect
+  randomizeLetterWeights();
+  
+  // Update every 3 seconds with sweep effect
+  setInterval(randomizeLetterWeights, 3000);
+}, 5000);
